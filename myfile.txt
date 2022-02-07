@@ -1,0 +1,40 @@
+ 
+INTER-BANK SETTLEMENT ADVICE
+ 
+The Treasurer / Head of Operations
+First Bank Nigeria Ltd
+35 Marina
+Lagos Island, Lagos
+26/06/2020
+ Session 3
+Account No.4000070135 Opening Collateral:N3,390,000,000.00
+S/N Payment Scheme SchemeType Debit (NGN) Credit (NGN)
+1  e-Transact Card 20,000.00 -
+2  FMDQ Transaction Fee FMDQ 2,199,733.83 -
+3  Interswitch Card - 4,320,410,494.37
+4  NAPS SETTLEMENT NAPS 112,780,422.02 -
+5  NIBSS e-BillsPay EFT 13,126,182.79 -
+6  NIBSS Instant Payment EFT 421,219,549.97 -
+Total Debit / Credit(NGN) 549,345,888.61 4,320,410,494.37
+OVERALL NET POSITION (NGN) 3,771,064,605.76 CR
+Nigeria Inter-Bank Settlement System                                                                  Settlement Advice
+ 
+INTER-BANK SETTLEMENT ADVICE
+ 
+The Treasurer / Head of Operations
+First Bank Nigeria Ltd
+35 Marina
+Lagos Island, Lagos
+26/06/2020
+ Session 3
+Account No.4000070135 Opening Collateral:N3,390,000,000.00
+S/N Payment Scheme SchemeType Debit (NGN) Credit (NGN)
+1  e-Transact Card 20,000.00 -
+2  FMDQ Transaction Fee FMDQ 2,199,733.83 -
+3  Interswitch Card - 4,320,410,494.37
+4  NAPS SETTLEMENT NAPS 112,780,422.02 -
+5  NIBSS e-BillsPay EFT 13,126,182.79 -
+6  NIBSS Instant Payment EFT 421,219,549.97 -
+Total Debit / Credit(NGN) 549,345,888.61 4,320,410,494.37
+OVERALL NET POSITION (NGN) 3,771,064,605.76 CR
+Nigeria Inter-Bank Settlement System                                                                  Settlement Advice
