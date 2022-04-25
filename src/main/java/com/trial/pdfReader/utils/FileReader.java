@@ -117,9 +117,12 @@ public class FileReader {
                 final Configuration lineConfig = fileConfig.stream().filter(conf -> conf.getLineNumber() == i).findAny().orElseGet(() -> new Configuration(i, false))
                 if (lineConfig.isTransactionLine()) {
 
-                } else {
+                } else if (lineConfig.isCurrency()) {
                     
+                } else {
+
                 }
+                
                 switch (i) {
                     //If the index is 0 or 2, it is a white space (empty line), there are no text there, so we don't care
                     case 0: case 2: break;
