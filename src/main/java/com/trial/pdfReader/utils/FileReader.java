@@ -2,6 +2,7 @@ package com.trial.pdfReader.utils;
 
 import com.trial.pdfReader.entities.SampleModel;
 import com.trial.pdfReader.entities.Transaction;
+import com.trial.pdfReader.file-configurations.FileConfig;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.springframework.stereotype.Service;
@@ -44,9 +45,12 @@ public class FileReader {
     /**
      * This method is responsible for reading the sample file specified by the file path passed to it.
      * @param pathToFile This is the path to the file we want to read
+     * @param fileConfig This is an interface that supplies the configuarion to the file type being read
      * @return {@link SampleModel}. This sample model is the JSON representation we get after reading the passed file.
      */
-    public SampleModel read(final String pathToFile) {
+    public SampleModel read(final String pathToFile, final FileConfig fileConfig) {
+
+        final List<Configuration> fileConfig = fileConfig.getFileConfigurations();
 
         //1. Declare the result object (JSON) that we will enrich with information we shall read from the pdf file
         final SampleModel sampleModel = new SampleModel();
@@ -109,6 +113,13 @@ public class FileReader {
                 // step 1. we take a given line
                 final String data = textSplit[i].trim();
                 //Step 2. we note the index of that given line, and do a switch-case over it
+
+                final Configuration lineConfig = fileConfig.stream().filter(conf -> conf.getLineNumber() == i).findAny().orElseGet(() -> new Configuration(i, false))
+                if (lineConfig.isTransactionLine()) {
+
+                } else {
+                    
+                }
                 switch (i) {
                     //If the index is 0 or 2, it is a white space (empty line), there are no text there, so we don't care
                     case 0: case 2: break;
